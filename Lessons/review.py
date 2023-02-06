@@ -95,4 +95,44 @@ for r in range(1, size + 1):
 
 
 
+# format
+def display_hello():
+    print('Hello')
+display_hello()     # u need this to call the function; first line to run
 
+
+# purpose of main()
+x = 0   # global variable -dont do it
+def display_hello():
+    print('Hello')
+def main():
+    display_hello()
+main()
+
+
+
+# SHOPPING CART PROGRAM
+# noun = variable
+# verb = function
+
+def display_menu():
+    pass
+def load():
+    pass
+def save():
+    pass
+def add():
+    pass
+def display_cart(items):
+    ''' display items '''
+    print('item: ')
+    for i in range(len(items)):
+        print(f'{items [i]}')
+
+def remove():
+    pass
+def main():
+    items = []
+    prices = []
+
+main()
